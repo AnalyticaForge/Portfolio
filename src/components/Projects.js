@@ -1,52 +1,58 @@
 function Projects() {
   return (
     <section id="projects" className="section">
-      <h2>My Projects</h2>
+      <h2>Featured Projects</h2>
+
       <ul>
         <li>
-          🚗{" "}
+          📊{" "}
           <a
-            href="https://github.com/Spiritual-Dev/MyMech"
+            href="https://github.com/AnalyticaForge/sales-data-analysis"
             target="_blank"
             rel="noreferrer"
           >
-            <strong>MyMech – Mechanic Finder Web App</strong>
+            <strong>Sales Data Analysis</strong>
           </a>
+
           <p>
-            A mechanic finder platform that connects car owners to nearby
-            mechanics using FastAPI, PostgreSQL + PostGIS, and Leaflet map
-            integration.
+            Performed end-to-end sales analysis using SQL and Microsoft Excel.
+            Cleaned, explored, and analyzed sales data to uncover revenue
+            trends, top-selling products, customer purchasing patterns, and key
+            business insights through data visualization and reporting.
           </p>
         </li>
 
         <li>
-          👕{" "}
+          🗄️{" "}
           <a
-            href="https://github.com/Spiritual-Dev/Pulse-Apparel"
+            href="https://github.com/AnalyticaForge"
             target="_blank"
             rel="noreferrer"
           >
-            <strong>Pulse Apparel – Fashion Brand Website</strong>
+            <strong>SQL Business Insights</strong>
           </a>
+
           <p>
-            A clean, responsive fashion website built with HTML, CSS, and
-            JavaScript to showcase collections and brand identity online.
+            Wrote SQL queries to answer real-world business questions involving
+            sales performance, customer segmentation, product analysis, monthly
+            trends, and business reporting.
           </p>
         </li>
 
         <li>
-          🏪{" "}
+          📈{" "}
           <a
-            href="https://github.com/Spiritual-Dev/Morenbee-Grocery-Store"
+            href="https://github.com/AnalyticaForge"
             target="_blank"
             rel="noreferrer"
           >
-            <strong>Morenbee Grocery Store App – Retail Management System</strong>
+            <strong>Interactive Excel Dashboard</strong>
           </a>
+
           <p>
-            A Python-based inventory and billing system for grocery stores, now
-            being upgraded with a FastAPI backend for automation and database
-            management.
+            Developed an interactive dashboard using Pivot Tables, Pivot Charts,
+            KPIs, slicers, and Excel formulas to visualize business performance
+            and support data-driven decision-making.
           </p>
         </li>
       </ul>
